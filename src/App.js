@@ -33,11 +33,11 @@ function App() {
       <Container>
         <GreenContainer>
           <GreenBox>
+            <LightR></LightR>
             <LightY></LightY>
-            <YellowLight></YellowLight>
             <GreenLight  inputColor='#0c0' active={colorIndex === 0}></GreenLight>
           </GreenBox>
-          <TextGreen>This Light is green</TextGreen>
+          <TextGreen>The Light is green</TextGreen>
         </GreenContainer>
         <YellowConatiner>
           <YellowBox>
@@ -45,7 +45,7 @@ function App() {
             <YellowLight  inputColor='#ff0' active={colorIndex === 1}></YellowLight>
             <LightG></LightG>
           </YellowBox>
-          <TextYellow>This Light is yellow</TextYellow>
+          <TextYellow>The Light is yellow</TextYellow>
         </YellowConatiner>
         <RedContainer>
           <RedBox>
@@ -53,7 +53,7 @@ function App() {
             <LightY></LightY>
             <LightG></LightG>
           </RedBox>
-          <TextRed>This Light is red</TextRed>
+          <TextRed>The Light is red</TextRed>
         </RedContainer>
       </Container>
       
