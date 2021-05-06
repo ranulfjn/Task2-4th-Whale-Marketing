@@ -32,26 +32,26 @@ function App() {
     <div>
       <Container>
         <GreenContainer>
-          <GreenBox color='#0c0' active={colorIndex === 0}>
-            <RedLight></RedLight>
+          <GreenBox>
+            <LightY></LightY>
             <YellowLight></YellowLight>
-            <GreenLight></GreenLight>
+            <GreenLight  inputColor='#0c0' active={colorIndex === 0}></GreenLight>
           </GreenBox>
           <TextGreen>This Light is green</TextGreen>
         </GreenContainer>
         <YellowConatiner>
-          <YellowBox color='#ff0' active={colorIndex === 1}>
-            <RedLight></RedLight>
-            <YellowLight></YellowLight>
-            <GreenLight></GreenLight>
+          <YellowBox>
+            <LightR></LightR>
+            <YellowLight  inputColor='#ff0' active={colorIndex === 1}></YellowLight>
+            <LightG></LightG>
           </YellowBox>
           <TextYellow>This Light is yellow</TextYellow>
         </YellowConatiner>
         <RedContainer>
-          <RedBox color='#f00' active={colorIndex === 2} >
-            <RedLight></RedLight>
-            <YellowLight></YellowLight>
-            <GreenLight></GreenLight>
+          <RedBox>
+            <RedLight  inputColor='#f00' active={colorIndex === 2}></RedLight>
+            <LightY></LightY>
+            <LightG></LightG>
           </RedBox>
           <TextRed>This Light is red</TextRed>
         </RedContainer>
@@ -132,7 +132,8 @@ width: 24px;
 left: 25px;
 top: 20px;
 border-radius: 0px;
-background-color: #bbb;
+background-color: ${props => props.inputColor || "#bbb"};
+filter: drop-shadow(0 0 10px #FF1B1B);
 border-radius: 50%;
 position:relative;
 `
@@ -142,7 +143,8 @@ width: 24px;
 left: 25px;
 top: 40px;
 position:relative;
-background-color:#bbb;
+background-color: ${props => props.inputColor || "#bbb"};
+filter: drop-shadow(0 0 10px #FFCD1B);
 border-radius: 50%;
 
 
@@ -153,7 +155,8 @@ height: 24px;
 width: 24px;
 left: 25px;
 top: 60px;
-background-color: #bbb;
+background-color: ${props => props.inputColor || "#bbb"};
+filter: drop-shadow(0 0 10px #00D12E);
 border-radius: 50%;
 `
 
@@ -205,5 +208,34 @@ text-align: center;
 color:#930101;
 `
 
+const LightG = styled.div `
+position:relative;
+height: 24px;
+width: 24px;
+left: 25px;
+top: 60px;
+background-color: #bbb;
+border-radius: 50%;
+`
+
+const LightY = styled.div `
+height: 24px;
+width: 24px;
+left: 25px;
+top: 40px;
+position:relative;
+background-color:#bbb;
+border-radius: 50%;
+`
+const LightR = styled.div `
+height: 24px;
+width: 24px;
+left: 25px;
+top: 20px;
+border-radius: 0px;
+background-color:#bbb;
+border-radius: 50%;
+position:relative;
+`
 
 export default App;
