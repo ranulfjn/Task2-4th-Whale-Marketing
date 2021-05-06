@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ranulfjn/Task2-4th-Whale-Marketing/static/css/main.64990c7c.chunk.css",
+    "main.js": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/main.68627ab2.chunk.js",
+    "main.js.map": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/main.68627ab2.chunk.js.map",
+    "runtime-main.js": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/runtime-main.f135e8e9.js",
+    "runtime-main.js.map": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/runtime-main.f135e8e9.js.map",
+    "static/js/2.031ead28.chunk.js": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/2.031ead28.chunk.js",
+    "static/js/2.031ead28.chunk.js.map": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/2.031ead28.chunk.js.map",
+    "index.html": "/ranulfjn/Task2-4th-Whale-Marketing/index.html",
+    "static/css/main.64990c7c.chunk.css.map": "/ranulfjn/Task2-4th-Whale-Marketing/static/css/main.64990c7c.chunk.css.map",
+    "static/js/2.031ead28.chunk.js.LICENSE.txt": "/ranulfjn/Task2-4th-Whale-Marketing/static/js/2.031ead28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f135e8e9.js",
+    "static/js/2.031ead28.chunk.js",
+    "static/css/main.64990c7c.chunk.css",
+    "static/js/main.68627ab2.chunk.js"
+  ]
+}
