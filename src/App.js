@@ -4,6 +4,7 @@ function App() {
 
   
   const initialDelay=2000;
+  var delay=8000;
   const [colorIndex, setColorIndex] = useState(0);
   const [isStarted, setIsStarted] = useState(false);
 
@@ -20,9 +21,13 @@ function App() {
     if (!isStarted) {
       return;
     }
+    
     const timer = setTimeout(() => {
       setColorIndex((colorIndex + 1) % 3);
-    }, 20000);
+      if(colorIndex==1){
+        delay=2000;
+      }
+    }, delay);
     return () => {
       clearTimeout(timer);
     };
