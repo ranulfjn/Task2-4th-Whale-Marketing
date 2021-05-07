@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Task2-4th-Whale-Marketing/static/css/main.64990c7c.chunk.css",
-    "main.js": "/Task2-4th-Whale-Marketing/static/js/main.68627ab2.chunk.js",
-    "main.js.map": "/Task2-4th-Whale-Marketing/static/js/main.68627ab2.chunk.js.map",
+    "main.js": "/Task2-4th-Whale-Marketing/static/js/main.520db0ad.chunk.js",
+    "main.js.map": "/Task2-4th-Whale-Marketing/static/js/main.520db0ad.chunk.js.map",
     "runtime-main.js": "/Task2-4th-Whale-Marketing/static/js/runtime-main.c95b3787.js",
     "runtime-main.js.map": "/Task2-4th-Whale-Marketing/static/js/runtime-main.c95b3787.js.map",
     "static/js/2.72ae885b.chunk.js": "/Task2-4th-Whale-Marketing/static/js/2.72ae885b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.c95b3787.js",
     "static/js/2.72ae885b.chunk.js",
     "static/css/main.64990c7c.chunk.css",
-    "static/js/main.68627ab2.chunk.js"
+    "static/js/main.520db0ad.chunk.js"
   ]
 }
